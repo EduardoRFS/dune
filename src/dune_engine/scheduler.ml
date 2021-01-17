@@ -270,6 +270,7 @@ end = struct
            ; "%w%f"
            ; "-m"
            ; "-q"
+           ; "--allow-overflow"
            ] )
        | None -> (
          (* On all other platforms, try to use fswatch. fswatch's event
